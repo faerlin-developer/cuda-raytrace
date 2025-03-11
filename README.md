@@ -31,7 +31,7 @@ along the z-axis. The output image is saved as a PNG file.
 <div align="center">
     <img src="img/raytracing.png" width="400">
     <br/>
-    <figcaption>Figure 2. A ray from the xy-plane hitting passing through a sphere and hitting its topmost intersection.</figcaption>
+    <figcaption>Figure 2. A ray from the xy-plane passing through a sphere and hitting its topmost intersection.</figcaption>
 </div>
 <br/>
 
