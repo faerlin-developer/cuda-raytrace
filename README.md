@@ -80,4 +80,4 @@ make run
 ## TODO
 
 1. Implement a serial version of the ray tracer.
-2. Compare the performance of the CUDA version to that of the serial version.
+2. Compare the performance of the serial and parallel (CUDA) versions of the ray tracer.
