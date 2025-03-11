@@ -17,7 +17,7 @@
 <div align="center">
     <img src="output.png" width="512">
     <br/>
-    <figcaption>Figure 1. Output of program.</figcaption>
+    <figcaption>Figure 1. Two-dimensional image generated from a scene of 20 three-dimensional spheres.</figcaption>
 </div>
 <br/>
 
