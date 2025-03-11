@@ -61,25 +61,9 @@ For a given pixel, this depth is computed for each sphere. Only the sphere close
 assign a color on that pixel base on the computed depth. If the ray does not intersect with any sphere, then that pixel
 is assigned the color black.
 
-<!--
+## Build and Run
 
-$$
-$$
-
-Our basic ray tracer
-will only support scenes o spheres, and the camera is restricted to the zaxis,
-acing the origin. Moreover, we will not support any lighting o the scene to avoid
-the complications o secondary rays. Instead o computing lighting eects, we will
-simply assign each sphere a color and then shade them with some precomputed
-unction i they are visible.
-So, what will the ray tracer do? It will re a ray rom each pixel and keep track o
-which rays hit which spheres. It will also track the depth o each o these hits. In
-the case where a ray passes through multiple spheres, only the sphere closest
-to the camera can be seen. In essence, our “ray tracer” is not doing much more
-than hiding suraces that cannot be seen by the camera.
-We will model our spheres with a data structure that stores the sphere’s center
-coordinate o (x, y, z), its radius, and its color o (r, b, g).
-
--->
-
-
+```bash
+make build
+make run
+```
