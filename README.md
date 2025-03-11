@@ -35,7 +35,7 @@ along the z-axis. The output image is saved as a PNG file.
 </div>
 <br/>
 
-A sphere is modelled with a center coordinate $(x, y, z)$
+A sphere is modelled with a center coordinate $(x, y, z)$, radius $r$, and color $(r,g,b)$.
 
 <!--
 
