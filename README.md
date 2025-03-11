@@ -76,3 +76,8 @@ collection from constant memory rather than retrieving it from global memory.
 make build
 make run
 ```
+
+## TODO
+
+1. Implement a serial version of the ray tracer.
+2. Compare the performance of the serial version to that of the CUDA version.
