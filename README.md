@@ -44,14 +44,26 @@ $$
 
 A ray from each pixel is fired from the point $(x,y)$ on the xy-plane and our basic ray tracer will compute the point at
 which it will hit the sphere. Because the camera is looking down along the z-axis, we are interested in the depth the
-ray travels from the xy-plane to its topmost intersection with the sphere. For a given pixel, this depth is computed for
-each sphere. Only the sphere closest to the camera can be seen. We then assign a color on that pixel base on the
-computed depth. If the ray does not intersect with any sphere, then that pixel is assigned the color black.
+ray travels from the xy-plane to its topmost intersection with the sphere. In Figure 2, this depth is given by
+
+$$
+depth(x,y) = dz + z
+$$
+
+where $dz$ is the offset along the z-axis between the center of the sphere and the ray's intersection point with the
+sphere. If $dx=x-a$ and $dy=y-b$ then $dz$ is given by
+
+$$
+dz = \sqrt{r^2 - dx^2 - dy^2}
+$$
+
+For a given pixel, this depth is computed for each sphere. Only the sphere closest to the camera can be seen. We then
+assign a color on that pixel base on the computed depth. If the ray does not intersect with any sphere, then that pixel
+is assigned the color black.
 
 <!--
 
 $$
-z = Z \pm \sqrt{r^2 - dx^2 - dy^2}
 $$
 
 Our basic ray tracer
