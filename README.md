@@ -35,17 +35,18 @@ along the z-axis. The output image is saved as a PNG file.
 </div>
 <br/>
 
-A sphere is modelled with a center coordinate $(a, b, c)$, radius $r$, and color $(r,g,b)$.
+A sphere with a center coordinate $(a, b, c)$ and radius $r$ is a collection of points $(X,Y,Z)$ that satisfies the
+equation
 
 $$
 (X-a)^2 + (Y-b)^2 + (Z-c)^2 = r^2
 $$
 
+<!--
+
 $$
 z = Z \pm \sqrt{r^2 - dx^2 - dy^2}
 $$
-
-<!--
 
 Our basic ray tracer
 will only support scenes o spheres, and the camera is restricted to the zaxis,
