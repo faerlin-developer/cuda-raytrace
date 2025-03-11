@@ -58,8 +58,8 @@ dz = \sqrt{r^2 - dx^2 - dy^2}
 $$
 
 For a given pixel, this depth is computed for each sphere. Only the sphere closest to the camera can be seen. We then
-assign a color on that pixel as a function of the offset $dz$. A smaller $dz$ results to a darker assigned color. If the
-ray does not intersect with any sphere, then that pixel is assigned the color black.
+assign a color on that pixel as a function of the offset $dz$. A smaller $dz$ results to a darker color. If the ray does
+not intersect with any sphere, then that pixel is assigned the color black.
 
 ## Ray Tracing with CUDA
 
