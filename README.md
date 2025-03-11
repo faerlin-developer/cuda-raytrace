@@ -42,6 +42,12 @@ $$
 (X-a)^2 + (Y-b)^2 + (Z-c)^2 = r^2
 $$
 
+A ray from each pixel is fired from the point $(x,y)$ on the xy-plane and our basic ray tracer will compute the point at
+which it will hit the sphere. Because the camera is looking down along the z-axis, we are interested in the depth the
+ray travels from the xy-plane to its topmost intersection with the sphere. For a given pixel, this depth is computed for
+each sphere. Only the sphere closest to the camera can be seen. We then assign a color on that pixel base on the
+computed depth. If the ray does not intersect with any sphere, then that pixel is assigned the color black.
+
 <!--
 
 $$
