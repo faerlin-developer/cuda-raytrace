@@ -1,7 +1,9 @@
-# GPU Playground
+# Ray Tracing in CUDA
 
-## Ray Tracing
-
-## Root Mean Squared Normalization
-
-## Filtering Using Fast Fourier Transform
+<br/>
+<div align="center">
+    <img src="output.png" width="512">
+    <br/>
+    <figcaption>Figure 1. Output of program.</figcaption>
+</div>
+<br/>

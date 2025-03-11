@@ -46,6 +46,7 @@ int main() {
         h_sphere.radius = rand_radius(gen);
     }
 
+    // Copy to constant memory
     CALL(cudaMemcpyToSymbol(d_spheres, h_spheres, NUM_SPHERES * sizeof(Sphere)));
 
     auto block_dim = dim3(16, 16);
