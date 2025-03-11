@@ -66,9 +66,9 @@ not intersect with any sphere, then that pixel is assigned the color black.
 The kernel in `raytrace.cu` is launched with sufficient number of $16\times16$ blocks such that each pixel is assigned
 to a CUDA thread. Each thread computes the depths between its assigned pixel and all spheres. As a result, the
 collection of sphere is read-only and accessed repeatedly by all threads. To enhance performance, this collection is
-copied to the GPU's constant memory. My local GPU's constant memory has a capacity of `65,536 bytes`, which is more than
-sufficient to store 20 spheres occupying `560 bytes`. After being copied, each thread can access the sphere collection
-from constant memory rather than retrieving it from global memory.
+copied to the GPU's constant memory. My local GPU's __constant memory__ has a capacity of `65,536 bytes`, which is more
+than sufficient to store 20 spheres occupying `560 bytes`. After being copied, each thread can access the sphere
+collection from constant memory rather than retrieving it from global memory.
 
 ## Build and Run
 
