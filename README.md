@@ -61,6 +61,10 @@ For a given pixel, this depth is computed for each sphere. Only the sphere close
 assign a color on that pixel base on the computed depth. If the ray does not intersect with any sphere, then that pixel
 is assigned the color black.
 
+## Ray Tracing with CUDA
+
+The kernel is
+
 ## Build and Run
 
 ```bash

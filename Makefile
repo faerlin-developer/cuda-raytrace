@@ -5,6 +5,9 @@
 build: bin
 	nvcc -arch=sm_80 -rdc=true -o bin/main src/main.cu src/sphere.cu src/pngwrapper.cpp src/raytrace.cu -I include -lpng
 
+run:
+	bin/main
+
 bin:
 	rm -rf bin
 	mkdir -p bin
