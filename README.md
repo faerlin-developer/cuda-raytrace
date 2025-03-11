@@ -31,7 +31,7 @@ along the z-axis. The output image is saved as a PNG file.
 <div align="center">
     <img src="img/raytracing.png" width="400">
     <br/>
-    <figcaption>Figure 1. Two-dimensional image generated from a scene of 20 three-dimensional spheres.</figcaption>
+    <figcaption>Figure 2. A ray from the xy-plane hitting passing through a sphere and hitting its topmost intersection.</figcaption>
 </div>
 <br/>
 
