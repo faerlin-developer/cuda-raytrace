@@ -84,4 +84,5 @@ make run
 
 1. Implement a serial version of the ray tracer.
 2. Compare the performance of the serial and parallel (CUDA) versions of the ray tracer.
-3. Animate the 3D spheres and display the resulting animation using SFML. 
+3. Make the 3D spheres move by assigning them random speed and direction. Periodically generate a 2D image and display
+   the animation using SFML.
