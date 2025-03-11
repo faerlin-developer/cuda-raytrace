@@ -8,6 +8,7 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#basic-ray-tracing">Basic Ray Tracing</a></li>
     <li><a href="#build-and-run">Build and Run</a></li>
+    <li><a href="#todo">TODO</a></li>
   </ol>
 </details>
 
