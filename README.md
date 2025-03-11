@@ -37,6 +37,14 @@ along the z-axis. The output image is saved as a PNG file.
 
 A sphere is modelled with a center coordinate $(a, b, c)$, radius $r$, and color $(r,g,b)$.
 
+$$
+(X-a)^2 + (Y-b)^2 + (Z-c)^2 = r^2
+$$
+
+$$
+z = Z + \sqrt{a}
+$$
+
 <!--
 
 Our basic ray tracer
