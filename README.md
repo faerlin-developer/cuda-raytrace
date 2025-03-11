@@ -23,7 +23,17 @@
 
 We implement a basic ray tracer in C++ using CUDA. Ray tracing produces a 2D image of a scene consisting of 3D objects.
 Our basic ray tracer processes a scene containing 3D spheres and generates a 2D image as viewed from a camera positioned
-along the z-axis.
+along the z-axis. The output image is saved as a PNG file.
+
+## Basic Ray Tracing
+
+<br/>
+<div align="center">
+    <img src="img/raytracing.png" width="400">
+    <br/>
+    <figcaption>Figure 1. Two-dimensional image generated from a scene of 20 three-dimensional spheres.</figcaption>
+</div>
+<br/>
 
 <!--
 
