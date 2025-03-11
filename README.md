@@ -47,7 +47,7 @@ which it will hit the sphere. Because the camera is looking down along the z-axi
 ray travels from the xy-plane to its topmost intersection with the sphere. In Figure 2, this depth is given by
 
 $$
-depth(x,y) = dz + z
+\texttt{depth}(x,y) = dz + z
 $$
 
 where $dz$ is the offset along the z-axis between the center of the sphere and the ray's intersection point with the
