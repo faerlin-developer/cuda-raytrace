@@ -64,7 +64,7 @@ not intersect with any sphere, then that pixel is assigned the color black.
 
 ## Ray Tracing with CUDA
 
-We store the collection of 20 spheres on the GPU's __constant memory__ for performance.
+We leverage the GPU's __constant memory__ for improved performance.
 
 The kernel in `raytrace.cu` is launched with sufficient number of $16\times16$ blocks such that each pixel is assigned
 to a CUDA thread. Each thread computes the depths between its assigned pixel and all spheres. As a result, the
